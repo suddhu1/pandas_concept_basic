@@ -1,6 +1,6 @@
 import pandas as pd 
 import numpy as np 
-
+import matplotlib.pyplot as plt 
 # data_frame = pd.DataFrame()
 # print(type(data_frame))
 # to create the data frame we can use List 
@@ -235,3 +235,24 @@ import numpy as np
 # storage = pd.merge(left,right,on=["subject"])  # merge will be done on the basis of the subject name 
 # print(storage) 
 
+
+# data3 = pd.read_csv("https://raw.githubusercontent.com/sunnysavita10/Statistics-With-Python-CompleteGuide/refs/heads/main/Titanic.csv")
+# print(data3)
+
+data2 = pd.read_csv("https://raw.githubusercontent.com/sunnysavita10/Statistics-With-Python-CompleteGuide/refs/heads/main/Iris.csv")
+# print(data2)
+df = pd.DataFrame(data2)
+# different plot for graph analysis of the data
+# line, 
+# scatter plot
+# Bar plot 
+# histogram 
+# pie 
+# box
+# violine 
+# heatmap 
+# 3d plot 
+
+df['SepalLengthCm'].plot()
+
+plt.show()
