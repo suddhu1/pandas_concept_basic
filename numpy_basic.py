@@ -160,11 +160,17 @@ import numpy as np
 
 # Broadcasting in NumPy 
 # Broadcasting allows NumPy to work with arrays of different shapes during arithmetic operations
-arr1 = np.array([1, 2, 3])
-arr2 = np.array([[1], [2], [3]])
+# arr1 = np.array([1, 2, 3])
+# arr2 = np.array([[1], [2], [3]])
 
-broadcasted_sum = arr1 + arr2
-print(broadcasted_sum)
-# arr1 (shape (1,3)) and arr2 (shape (3, 1)) are broadcast to compatible shapes (3, 3) for element-wise addition.
-
-
+# broadcasted_sum = arr1 + arr2
+# print(broadcasted_sum)
+# arr1 (shape (1,3)) and arr2 (shape (3, 1)) are broadcast to compatible shapes (3, 3) for element-wise addition
+# output
+# [[2 3 4]
+#  [3 4 5]
+#  [4 5 6]]
+# how = 
+# First row: [1, 2, 3] + [1, 1, 1] = [2, 3, 4]
+# Second row: [1, 2, 3] + [2, 2, 2] = [3, 4, 5]
+# Third row: [1, 2, 3] + [3, 3, 3] = [4, 5, 6]
