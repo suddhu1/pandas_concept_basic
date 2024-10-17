@@ -5,11 +5,11 @@ import statistics
 # data2 = pd.read_csv("https://raw.githubusercontent.com/sunnysavita10/Statistics-With-Python-CompleteGuide/refs/heads/main/Iris.csv")
 # # print(data)
 
-data1 = [23,24,32,45,12,43,67,45,32,56,32]
+# data1 = [23,24,32,45,12,43,67,45,32,56,32]
 # print(data1)
 
 # data3 = pd.read_csv("https://raw.githubusercontent.com/sunnysavita10/Statistics-With-Python-CompleteGuide/refs/heads/main/Titanic.csv")
-# # print(data3)
+# print(data3)
 
 # library required for the statistic pratical implement in python 
 # scipy
@@ -20,7 +20,7 @@ data1 = [23,24,32,45,12,43,67,45,32,56,32]
 # matplotlib 
 # seaborn
 
-data_copy = data1.copy()
+# data_copy = data1.copy()
 # store = np.mean(data1)
 # print(store)
 
