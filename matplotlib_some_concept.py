@@ -206,15 +206,15 @@ data3 = pd.read_csv("https://raw.githubusercontent.com/sunnysavita10/Statistics-
 # plt.show()
 
 
-x = np.outer(np.linspace(-2, 2, 50), np.ones(50))
-y = x.copy().T # transpose of the data x
-z = np.cos(x**2 + y**2)
+# x = np.outer(np.linspace(-2, 2, 50), np.ones(50))
+# y = x.copy().T # transpose of the data x
+# z = np.cos(x**2 + y**2)
 
-fig = plt.figure()
-ax = fig.add_subplot(111, projection = '3d')
+# fig = plt.figure()
+# ax = fig.add_subplot(111, projection = '3d')
 
-ax.plot_surface(x,y,z)
-plt.show()
+# ax.plot_surface(x,y,z)
+# plt.show()
 
 
 

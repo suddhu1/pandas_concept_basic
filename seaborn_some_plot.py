@@ -7,16 +7,19 @@ import matplotlib.pyplot as plt
 
 
 # Apply the default theme
-sns.set_theme()
+# sns.set_theme()
 
-# Load an example dataset
-tips = sns.load_dataset("tips")
+# # Load an example dataset
+# tips = sns.load_dataset("tips")
 
-# Create a visualization
-sns.relplot(
-    data=tips,
-    x="total_bill", y="tip", col="time",
-    hue="smoker", style="smoker", size="size", # tells about the looks of the garph 
-)
-print(sns.displot(data=tips, x="total_bill", col="time", kde=True))
-plt.show() # from matlab to display the plot 
+# # Create a visualization
+# sns.relplot(
+#     data=tips,
+#     x="total_bill", y="tip", col="time",
+#     hue="smoker", style="smoker", size="size", # tells about the looks of the garph 
+# )
+# print(sns.displot(data=tips, x="total_bill", col="time", kde=True))
+# plt.show() # from matlab to display the plot 
+
+
+
