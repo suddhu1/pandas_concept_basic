@@ -299,14 +299,14 @@ from scipy.stats import chi2
 # Chi-square test 
 # Chi-square test id done over the catagorical data 
 
-df = sns.load_dataset("tips") # loding the dataset using the seaborn function 
+# df = sns.load_dataset("tips") # loding the dataset using the seaborn function 
 # print(df.info())
 # print(df[['sex','smoker']])
 # print(df['sex'].value_counts())
 # print(df['smoker'].value_counts())
-data_table = pd.crosstab(df['sex'],df['smoker'])
-data_array = data_table.values 
-stats_test,p,dof,Expected_values = stats.chi2_contingency(data_array)
+# data_table = pd.crosstab(df['sex'],df['smoker'])
+# data_array = data_table.values 
+# stats_test,p,dof,Expected_values = stats.chi2_contingency(data_array)
 # print(Expected_values)
 # print(data_array)
 
@@ -319,11 +319,18 @@ stats_test,p,dof,Expected_values = stats.chi2_contingency(data_array)
 # # for i in zip(data_array,Expected_values):
 # #     print(i)
 
-chisquare_test = sum([(o-e)**2/e for o,e in zip(data_array,Expected_values)])
-print(sum(chisquare_test))
+# chisquare_test = sum([(o-e)**2/e for o,e in zip(data_array,Expected_values)])
+#  chisquare_test = sum(chisquare_test)
 
-dof = 1 
-alpha = 0.05
+# dof = 1 
+# alpha = 0.05
 
-print(chi2.ppf(1-alpha, df = dof ))
+# chi square function 
+# critical_value = chi2.ppf(1-alpha, df = dof )
 
+# now we compare the value from the formulae and the value from the alpha and the dof 
+
+# if chisquare_test >= critical_value :
+#     print("reject null hypothesis ")
+# else:
+#     print("accept the null hypothesis")

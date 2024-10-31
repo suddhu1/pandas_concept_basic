@@ -57,14 +57,19 @@ print(df)
 
 # observation on data after nanalysing 
 # i have to delet the duplicated data 
-#  i can  convert my rating columns data type onto int 
+#  i can  convert my reviews columns data type onto int 
 # there is k ans M in the size column we have to convert them into the same format 
 # correct the install column as well 
 # rectifing the data to the respective format and data type for possible column 
 
 
 # deleting duplicate data 
+data = df.drop_duplicates( ) # dropping the duplicate value and storing the unique in the data variable 
+# print(df.shape) # shape of orginal daraframe 
+# print(data.shape) # shape of dataframe after cleaning the duplicate value 
 
-data = df.drop_duplicates( )
-print(df.shape)
-print(data.shape)
+
+# converting the datatype of the reviews column into the int type 
+
+
+
