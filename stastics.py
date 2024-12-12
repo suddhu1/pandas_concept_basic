@@ -11,8 +11,8 @@ import scipy.stats as stat
 import pylab
 from scipy import stats 
 from scipy.stats import chi2
-# data2 = pd.read_csv("https://raw.githubusercontent.com/sunnysavita10/Statistics-With-Python-CompleteGuide/refs/heads/main/Iris.csv")
-# # print(data)
+data2 = pd.read_csv("https://raw.githubusercontent.com/sunnysavita10/Statistics-With-Python-CompleteGuide/refs/heads/main/Iris.csv")
+print(data2)
 
 # data1 = [23,24,32,45,12,43,67,45,32,56,32]
 # print(data1)
