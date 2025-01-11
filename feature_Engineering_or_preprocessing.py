@@ -7,7 +7,7 @@ df = pd.DataFrame({'A':[1,2,np.nan,4],
                    'C':[9,10,11,np.nan]})
 
 # print(df)
-
+ 
 # Handling the nan values 
 
 # different ways of filling the nan place in the dataframe 
